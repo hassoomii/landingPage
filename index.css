@@ -1,6 +1,70 @@
-.div1 {
+body {
+    background-color: black;
+    display: grid;
     align-items: center;
     justify-content: center;
-    justify-items: center;
-    align-content: center;
+    text-align: center;
+    background-image: url('floralBcakground.jpeg');
+}
+.div1 {
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: aqua;
+    height: 21vh; 
+    margin-bottom: 3%;
+    width: 110vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.header {
+    display: grid;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    justify-self: center;
+    width: 110vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.div2 {
+    display: grid;
+    background-color: yellow;
+    align-items: center;
+    text-align: center;
+    height: 56vh;
+    margin-bottom: 3%;
+    justify-self: center;
+    width: 110vh;
+    border-radius: 20px;
+}
+.div3 {
+    text-align: center;
+    justify-self: center;
+    width: 110vh;
+    margin-bottom: 3%;
+}
+footer {
+    display: grid;
+    background-color: aqua;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    width: 110vh;
+    border-radius: 20px;
+}
+.div1, .div2, .div3, header, footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text1 {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.image1 {
+    border-radius: 20px;
 }
